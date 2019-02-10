@@ -1,0 +1,83 @@
+{
+	"name": "Harvey Randall",
+	"description": "Computer Science undergraduate.",
+	"location": "Queen Mary University of London",
+	"contact": [
+		{"url": "mailto:harvey_randall@me.com", "platform": "email", "classes": "fas fa-envelope"},
+		{"url": "https://www.linkedin.com/in/harvey-randall-833810124/", "platform": "LinkedIn", "classes":"fab fa-linkedin"},
+		{"url": "https://www.github.com/harveyrandall", "platform": "GitHub", "classes":"fab fa-github"},
+		{"url": "https://www.instagram.com/harveyrandall", "platform": "Instagram", "classes": "fab fa-instagram"}
+	],
+	"profile": "Where the profile will go.",
+	"education": [
+		{
+			"name": "Queen Mary University of London",
+			"start_date": "2017-09-18",
+			"end_date": "2021-06-11",
+			"qualifications": {
+				"MSci": [
+					{"subject": "Computer Science", "grade": "1st (predicted)"}
+				]
+			}
+		},
+		{
+			"name": "Westcliff High School for Boys",
+			"start_date": "2008-09-01",
+			"end_date": "2015-06-30",
+			"qualifications": {
+				"A-Level": [
+					{"subject": "Biology", "grade": "C"},
+					{"subject": "Chemistry", "grade": "C"},
+					{"subject": "Computing", "grade": "C"},
+					{"subject": "Mathematics", "grade": "B"}
+				],
+				"GCSE": [
+					{"subject": "Biology", "grade": "A*"},
+					{"subject": "Chemistry", "grade": "A*"},
+					{"subject": "Classical Civilisations", "grade": "B"},
+					{"subject": "Computing", "grade": "A"},
+					{"subject": "English Language", "grade": "A*"},
+					{"subject": "English Literature", "grade": "A*"},
+					{"subject": "French", "grade": "A*"},
+					{"subject": "History", "grade": "A"},
+					{"subject": "Latin", "grade": "A*"},
+					{"subject": "Mathematics", "grade": "A*"},
+					{"subject": "Physics", "grade": "A*"},
+					{"subject": "Religious Education", "grade": "A*"},
+					{"subject": "Statistics", "grade": "A"}
+				]
+			}
+		}
+	],
+	"projects": [
+		{
+			"name": "Weather App",
+			"url": "https://github.com",
+			"description": "description"
+		},
+		{
+			"name": "Registry website",
+			"url": "https://github.com",
+			"description": "description"
+		},
+		{
+			"name": "Travel blogging website",
+			"url": "https://weekend-wanderers.co.uk/",
+			"description": "description"
+		}
+	],
+	"experience": [
+		{
+			"name": "Queen Mary University of London",
+			"position": "PASS Mentor",
+			"start_date": "2018-10-01",
+			"end_date": ""
+		},
+		{
+			"name": "ITRS Group",
+			"position": "Presales Development",
+			"start_date": "2016-06-01",
+			"end_date": "2016-09-01"
+		}
+	]
+}
