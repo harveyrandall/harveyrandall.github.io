@@ -50,7 +50,7 @@ const Section = ({children, sectionName}) => {
 
 const Item = ({children, details}) => {
 	const heading = details.url ?
-					<h6><a href={details.url}>{details.name}</a></h6> :
+					<h6><a target="_blank" rel="noopener noreferrer" href={details.url}>{details.name}</a></h6> :
 					<h6>{details.name}</h6>;
 
 	let dateRange = undefined;
