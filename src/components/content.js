@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { profile, education, projects, experience } from '../profile.json';
+import { profile, education, projects, experience, skills } from '../profile.json';
 
 class Content extends Component {
 	render() {
@@ -28,6 +28,11 @@ class Content extends Component {
 				<Section sectionName="Experience">
 					{experience.map((val, index) => {
 						return <Item key={index} details={val} />
+					})}
+				</Section>
+				<Section sectionName="Skills">
+					{skills.map((val) => {
+						return <Skill key={val} name={val} />;
 					})}
 				</Section>
 			</div>
@@ -99,6 +104,12 @@ const Qualifications = ({data}) => {
 				return <li key={index}><b>{val.subject}</b> - {val.grade}</li>;
 			})}
 		</ul>
+	);
+}
+
+const Skill = ({name}) => {
+	return (
+		<div className="skill">{name}</div>
 	);
 }
 
