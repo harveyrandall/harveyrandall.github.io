@@ -187,3 +187,13 @@ ul.qualification-list {
     padding: 0px;
     margin: 0px;
 }
+
+.skill {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    background-color: #FFBE31;
+    color: #3B61D2;
+}
