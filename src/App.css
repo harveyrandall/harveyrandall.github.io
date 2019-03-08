@@ -102,7 +102,9 @@
 	text-decoration: none;
 	overflow:hidden;
 }
-
+.contact-icon:hover {
+    color: #FFE7B3;
+}
 
 
 /* CONTENT */
