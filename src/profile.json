@@ -1,6 +1,12 @@
 {
 	"name": "Harvey Randall",
-	"description": "Computer Science undergraduate.",
+	"description": "Second year Computer Science undergraduate.",
+	"quotes": [
+		{
+			"quote": "A man's reach should exceed his grasp, Or what's a heaven for?",
+			"originator": "Robert Browning"
+		}
+	],
 	"location": "Queen Mary University of London",
 	"contact": [
 		{"url": "mailto:harvey_randall@me.com", "platform": "email", "classes": "fas fa-envelope"},
@@ -52,18 +58,18 @@
 	"projects": [
 		{
 			"name": "Weather App",
-			"url": "https://github.com",
-			"description": "TODO: Write project description..."
+			"url": "https://evening-beyond-50834.herokuapp.com/",
+			"description": "A coursework project created for a Graphical User Interfaces module. As part of a group I used socio-technical models and data gathering techniques to implement a Weather app for golfers. The solution was implemented using preact, a lightweight version of React."
 		},
 		{
 			"name": "Registry website",
-			"url": "https://github.com",
-			"description": "TODO: Write project description..."
+			"url": "https://fast-shore-34342.herokuapp.com/",
+			"description": "A coursework project created for a Software Engineering module. As part of a group we carried out domain analysis, requirements analysis, design and prototype implementation of this project. The project was created using PHP's Laravel framework."
 		},
 		{
 			"name": "Travel blogging website",
 			"url": "https://weekendwanderers.co.uk/",
-			"description": "TODO: Write project description..."
+			"description": "A custom website used for travel blogging created using HTML5, CSS3, Javascript, and PHP. The implementation included a MySQL database setup to track users and their posts. An Nginx web server was used to serve the content and fore SSL connections."
 		}
 	],
 	"experience": [
