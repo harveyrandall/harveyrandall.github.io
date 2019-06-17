@@ -18,8 +18,8 @@
 	"education": [
 		{
 			"name": "Queen Mary University of London",
-			"start_date": "2017-09-18",
-			"end_date": "2020-06-11",
+			"start_date": "2016-09-19",
+			"end_date": "2021-06-11",
 			"qualifications": {
 				"MSci": [
 					{"subject": "Computer Science", "grade": "1st (predicted)"}
