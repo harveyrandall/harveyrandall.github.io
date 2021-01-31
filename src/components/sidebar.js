@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { name, description, location, contact } from "../profile.json";
 
-import personalImage from "../images/IMG_9939.png";
+import personalImage from "../images/A63V8672.JPG";
 
 class Sidebar extends Component {
 	render() {
